@@ -59,9 +59,9 @@ router.post("/agendar", (req, res) => {
   const { usuario_id, servico, data, hora } = req.body;
 
   const sql =
-    "INSERT INTO agendamentos (usuario_id, servico, data, hora) VALUES (?, ?, ?, ?)";
+    "INSERT INTO agendamentos (usuario_id, servico, data, hora, status) VALUES (?, ?, ?, ?, ?)";
 
-  db.query(sql, [usuario_id, servico, data, hora], (err) => {
+  db.query(sql, [usuario_id, servico, data, hora, "pendente"], (err) => {
     if (err) {
       console.error(err);
       return res.status(500).json({ erro: "Erro ao agendar" });
