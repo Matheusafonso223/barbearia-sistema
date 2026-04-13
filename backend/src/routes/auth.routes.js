@@ -14,9 +14,9 @@ router.post("/cadastro", (req, res) => {
 
   db.query(sql, [nome, email, senha, tipo || "cliente"], (err, result) => {
     if (err) {
-      console.error(err);
-      return res.status(500).json({ erro: "Erro ao cadastrar usuário" });
-    }
+  console.error("Erro no cadastro:", err);
+  return res.status(500).json({ erro: err.message });
+}
 
     res.json({
       mensagem: "Usuário cadastrado com sucesso",
