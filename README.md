@@ -1,37 +1,34 @@
 # Sistema de Barbearia
 
-Este projeto foi desenvolvido com foco em organização, praticidade e experiência do usuário para gerenciamento de uma barbearia.
+Sistema full stack para gerenciamento de barbearia com autenticação, agendamentos e painel administrativo.
 
 ## Funcionalidades
 
-- Cadastro de clientes
-- Sistema de login
-- Interface moderna e responsiva
-- Integração com back-end
-- Estrutura organizada para escalabilidade
+* Cadastro e login de usuários
+* Login administrativo
+* Agendamento de horários
+* Cancelamento de agendamentos
+* Painel de gerenciamento
+* Integração com banco de dados MySQL
 
 ## Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
-- React
-- Node.js
-- Express
-- MySQL
+* React
+* Node.js
+* Express
+* MySQL
+* Axios
+* Render
+* GitHub
 
-## Objetivo
+## Destaques do projeto
 
-O objetivo do projeto é simular um sistema real de barbearia, permitindo o gerenciamento de clientes e serviços de forma prática e eficiente.
+* CRUD completo
+* API REST
+* Integração front-end + back-end
+* Deploy da aplicação
+* Controle de usuários e agendamentos
 
-## Responsividade
+## Repositório
+https://github.com/matheusafonso223/barbearia-sistema.git
 
-O sistema foi desenvolvido pensando em diferentes dispositivos, garantindo uma boa experiência tanto no desktop quanto no mobile.
-
-## Status do projeto
-
-Em desenvolvimento / melhorias contínuas
-
-## Autor
-
-Matheus Afonso
